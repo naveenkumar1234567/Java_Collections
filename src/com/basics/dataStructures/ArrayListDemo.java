@@ -32,8 +32,9 @@ public class ArrayListDemo {
 		double d =(double) a.get(1);
 		System.out.println(d);
 		
+		a.add(1, true);
 		
-		
+		System.out.println(a.get(1));
 		
 		
 		
